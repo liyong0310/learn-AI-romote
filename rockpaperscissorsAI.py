@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+#学校用的是rsp_mdoel.h5
 net = cv2.dnn.readNet("yolov3-tiny.weights", "yolov3-tiny.cfg")
 
 layer_names = net.getLayerNames()
